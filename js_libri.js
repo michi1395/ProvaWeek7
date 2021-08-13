@@ -1,3 +1,14 @@
+function confermaIscrizione() {
+    let nome = document.getElementById("nome");
+    let cognome = document.getElementById("cognome");
+    let email = document.getElementById("email");
+    let frequenza = document.getElementById("frequenzaRicezione");
+
+    let message = 'I tuoi dati sono: \nNome :' + nome.value + '\nCognome : ' + cognome.value +
+        '\n Email : ' + email.value + '\nCon frequenza ricezione ' + frequenza.value;
+    let answer = confirm(message);
+}
+
 function selezionaLibri() {
 
     let libri = document.querySelectorAll('input[type=checkbox]:checked');
@@ -26,13 +37,3 @@ function selezionaLibri() {
 
 }
 
-function confermaIscrizione() {
-    let nome = document.getElementById("nome");
-    let cognome = document.getElementById("cognome");
-    let email = document.getElementById("email");
-    let frequenza = document.getElementById("frequenzaRicezione");
-
-    let message = 'I tuoi dati sono: \nNome :' + nome.value + '\nCognome : ' + cognome.value +
-        '\n Email : ' + email.value + '\nCon frequenza ricezione' + frequenza.value;
-    let answer = confirm(messege);
-}
