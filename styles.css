@@ -1,0 +1,135 @@
+body {
+    background-image: url('images/trama.jpg');
+}
+
+.img_float {
+    padding-right: 10px;
+    float: left;
+}
+
+.logo {
+    width: 300px;
+}
+
+div {
+    color: #363432;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.intestazione {
+    width: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    clear: left,
+}
+
+.corpocentrale {
+    width: 80%;
+}
+
+.end {
+    width: 100%;
+    clear: left;
+}
+
+.corpo {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+h1 {
+    font-family: Cambria;
+    color: #5a2d04;
+    text-shadow: 1px 1px saddlebrown;
+}
+
+h2 {
+    font-family: Cambria;
+    color: black;
+    font-weight: bold;
+    
+}
+
+h4 {
+    font-family: Cambria;
+    color: black;
+    font-weight: bold;
+    font-size:9px;
+}
+
+a:link {
+    color: steelblue;
+}
+
+a:visited {
+    color: steelblue;
+}
+
+a:hover {
+    color: lightblue;
+    background-color: steelblue;
+}
+
+.sidebar {
+    width: 200px;
+    vertical-align: top;
+    border-right: 1px solid steelblue;
+}
+
+    .sidebar:hover {
+        background-color: lightblue;
+    }
+
+.corpocentrale:hover {
+    background-color: lightblue;
+}
+
+.nav_items {
+    list-style-type: none;
+    font-family: Calibri;
+
+}
+
+a.navbar {
+
+    text-transform: unset;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding: 3px 7px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    color: dimgrey;
+    font-weight: bold;
+}
+
+input[type="submit"] {
+    background-color: steelblue;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    background-color: snow;
+}
+
+    input[type="text"]:hover {
+        background-color: skyblue;
+    }
+
+input[type="email"] {
+    background-color: snow;
+}
+
+    input[type="email"]:hover {
+        background-color: skyblue;
+    }
+
+
